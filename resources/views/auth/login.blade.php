@@ -89,12 +89,12 @@
                 <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
                     <p class="text-xs text-blue-800 font-medium mb-2">Comptes de test disponibles :</p>
                     <div class="text-xs text-blue-700 space-y-1">
-                        <p><span class="font-semibold">Admin :</span> admin@example.com / password</p>
-                        <p><span class="font-semibold">Commercial :</span> commercial@example.com / password</p>
+                        <p><span class="font-semibold">Admin :</span> ngaidoaissata19@gmail.com / password</p>
+                        <p><span class="font-semibold">Commercial :</span> commercial@gmail.com / password</p>
                        
-                        <p><span class="font-semibold">Marketing :</span> marketing@example.com / password</p>
-                        <p><span class="font-semibold">Directeur commercial :</span> directeurcommercial@crm.test / Password123!</p>
-                        <p><span class="font-semibold">Administration :</span> administration@crm.test / Password123!</p>
+                        <p><span class="font-semibold">Marketing :</span> senecodou@gmail.com / password</p>
+                        <p><span class="font-semibold">Directeur commercial :</span> directeurcommercial@gmail.com / Password>
+                        <p><span class="font-semibold">Administration :</span> konteaicha@gmail.com/ Passwor</p>
                     </div>
                 </div>
             </div>
