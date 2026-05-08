@@ -93,8 +93,8 @@
                         <p><span class="font-semibold">Commercial :</span> commercial@gmail.com / password</p>
                        
                         <p><span class="font-semibold">Marketing :</span> senecodou@gmail.com / password</p>
-                        <p><span class="font-semibold">Directeur commercial :</span> directeurcommercial@gmail.com / Password>
-                        <p><span class="font-semibold">Administration :</span> konteaicha@gmail.com/ Passwor</p>
+                        <p><span class="font-semibold">Directeur commercial :</span> directeurcommercial@gmail.com / Password</p>
+                        <p><span class="font-semibold">Administration :</span> konteaicha@gmail.com/ Password</p>
                     </div>
                 </div>
             </div>
