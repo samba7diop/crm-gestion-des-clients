@@ -24,6 +24,9 @@ RUN COMPOSER_MEMORY_LIMIT=-1 composer install \
     --no-interaction \
     --optimize-autoloader
 
+RUN mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views bootstrap/cache \
+    && chmod -R 775 storage bootstrap/cache
+
 # Render fournit le port via la variable d'env PORT
 # -t public : document root
 # public/index.php : router pour que / soit servi par Laravel
