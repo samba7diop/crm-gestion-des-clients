@@ -23,7 +23,10 @@ RUN COMPOSER_MEMORY_LIMIT=-1 composer install \
     --no-interaction \
     --optimize-autoloader
 
-CMD ["php", "-S", "0.0.0.0:8000"]
+# Render fournit le port via la variable d'env PORT
+# -t public : document root
+# public/index.php : router pour que / soit servi par Laravel
+CMD ["sh", "-c", "php -S 0.0.0.0:${PORT:-8000} -t public public/index.php"]
 
 
 
