@@ -87,7 +87,7 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DB_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'dpg-d7v5p7rrjlhs73ai9d10-a.oregon-postgres.render.com'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'crm_app_gestion_des_clients'),
             'username' => env('DB_USERNAME', 'crm_app_gestion_des_clients_user'),

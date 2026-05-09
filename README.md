@@ -75,32 +75,32 @@ Un middleware `role` protège les routes (voir `routes/web.php` et `app/Http/Mid
 ## Comptes de test disponibles
 
 - **Admin**
-  - **Email**: `admin@example.com`
+  - **Email**: `aichangaidoaissata19@gmail.com'
   - **Mot de passe**: `password`
 
 - **Commercial**
-  - **Email**: `commercial@example.com`
+  - **Email**: ` commercial@gmail.com`
   - **Mot de passe**: `password`
 
 - **Marketing**
-  - **Email**: `marketing@example.com`
+  - **Email**: `senecodou@gmail.com`
   - **Mot de passe**: `password`
 
 - **Directeur commercial (seed)**
-  - **Email**: `directeur@example.com`
+  - **Email**: `.com`
   - **Mot de passe**: `password`
 
 - **Administration (seed)**
-  - **Email**: `administration@example.com`
+  - **Email**: ` konteaicha@gmail.comm`
   - **Mot de passe**: `password`
 
 - **Directeur commercial**
-  - **Email**: `directeurcommercial@crm.test`
-  - **Mot de passe**: `Password123!`
+  - **Email**: `directeurcommercial@gmail.com`
+  - **Mot de passe**: `Password!`
 
 - **Administration (facturation / recouvrement / comptabilité)**
-  - **Email**: `administration@crm.test`
-  - **Mot de passe**: `Password123!`
+  - **Email**: ``
+  - **Mot de passe**: ``
 
 ## Installation & lancement (local)
 
