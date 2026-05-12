@@ -36,17 +36,17 @@ Route::middleware('auth')->group(function () {
 
     // Contacts
     Route::resource('contacts', ContactController::class)
-        ->middleware('role:commercial')
+        ->middleware('role:commercial,directeur_commercial')
         ->except(['index', 'show']);
     Route::resource('contacts', ContactController::class)
         ->only(['index', 'show'])
         ->middleware('role:marketing,directeur_commercial,administration');
     Route::get('contacts/import/form', [ContactController::class, 'importForm'])
         ->name('contacts.import.form')
-        ->middleware('role:commercial');
+        ->middleware('role:commercial,directeur_commercial');
     Route::post('contacts/import', [ContactController::class, 'import'])
         ->name('contacts.import')
-        ->middleware('role:commercial');
+        ->middleware('role:commercial,directeur_commercial');
     Route::get('contacts/export/{format?}', [ContactController::class, 'export'])
         ->name('contacts.export')
         ->middleware('role:commercial,marketing,directeur_commercial,administration');
@@ -63,7 +63,7 @@ Route::middleware('auth')->group(function () {
 
     // Quotes
     Route::resource('quotes', QuoteController::class)
-        ->middleware('role:commercial')
+        ->middleware('role:commercial,directeur_commercial')
         ->except(['index', 'show']);
     Route::resource('quotes', QuoteController::class)
         ->only(['index', 'show'])
